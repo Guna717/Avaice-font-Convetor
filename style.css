@@ -1,0 +1,116 @@
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: rgb(11, 12, 15);
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 1px 1px 6px 2px rgba(255, 255, 255, 0.588) inset,1px 1px 6px 0 #d4b40140;
+    border-radius: 10px;
+    
+}
+
+#output{
+    color: #FFD700;
+}
+
+
+.button {
+background-color: #04AA6D; /* Green */
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 1s;
+cursor: pointer;
+border-radius: 30px;
+}
+
+.button1 {
+    background-color:#03cd2f; 
+    color: rgb(0, 0, 0); 
+    border: 3px solid #03cd2f;
+}
+
+.button1:hover {
+    background-color: #ffffff;
+    color: #03cd2f;
+    box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.24),0 17px 50px 0 #02b9299c;
+}
+
+.button2 {
+    background-color:  #f44336; 
+    color: black; 
+    border: 3px solid #f44336;
+  }
+  
+  .button2:hover {
+    background-color: #ffffff;
+    color: #f44336;
+    box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.24),0 17px 50px 0 #cc0808e8;
+  }
+  
+  .button3 {
+    background-color: rgb(92, 99, 242); 
+    color: black; 
+    border: 3px solid rgb(92, 99, 242);;
+  }
+  
+  .button3:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(92, 99, 242);
+    box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.24),0 17px 50px 0 #021db9ef;
+  }
+
+  .button:active {
+    background-color: #f7f8f7;
+    box-shadow: 0 5px #070707;
+    transform: translatey(15px);
+  }
+
+  Header{
+    color: #FFD700;
+    text-shadow: 2px 2px 15px #e8d253;
+    text-align: center;
+    font-size:xx-large;
+    padding: 30px 0 50px  0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  footer{
+    color: rgb(11, 12, 15);
+    text-shadow: 4px 4px 30px #ffffff,-4px -4px 30px #ffffff;
+    font-size: medium;text-align: center;
+    padding:50px;
+  }
+
+  .threeButtons{
+    display: flex;
+    align-items: center;
+  }
+  
